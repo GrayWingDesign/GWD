@@ -30,7 +30,7 @@ Updated: 2016-08-29 00:00:05
     background-color: #456575;
 }
 .site-main {
-    margin-left: 13%;
+    /* margin-left: 13%; */
 }
 .entry-title {
     font-size: 135%;
@@ -71,6 +71,15 @@ p, h2 {
 .entry-header, .entry-content {
     margin-left: 20%;
 }
+
+/* center-align post content */
+body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
+	margin: 0;
+	margin-left: 25%;
+
+
+}
+
 @media screen and (min-width: 44.375em) {
 .site {
     margin-top: 21px;
