@@ -72,6 +72,11 @@ p, h2 {
     margin-left: 20%;
 }
 
+/* remove dotted lines around <a>s */
+a, a:active, a:focus, a:hover{
+	outline: 0;
+}
+
 /* center-align post content */
 body.no-sidebar:not(.search-results) article:not(.type-page) .entry-content {
 	margin: 0;
