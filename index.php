@@ -17,6 +17,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
+	  <div id="custom-inner" class="custom-area">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -56,6 +57,7 @@ get_header(); ?>
 		?>
 
 		</main><!-- .site-main -->
+	  </div>
 	</div><!-- .content-area -->
 
 <?php get_sidebar(); ?>
